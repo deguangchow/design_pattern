@@ -10,7 +10,7 @@
 #include "stdafx.h"
 #include "BeeAndFlowers.h"
 
-namespace observer {
+namespace visitor {
 
 
 StringVal::operator const string&() {
@@ -52,4 +52,4 @@ void test_visitor() {
     }
 }
 
-}//namespace observer
+}//namespace visitor

@@ -22,6 +22,9 @@
     <Filter Include="inner_outer">
       <UniqueIdentifier>{bd35fe7f-672b-48ad-a405-40666bf8ccc3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="visitor">
+      <UniqueIdentifier>{54acb7be-574a-457b-93d6-1530147fa0c8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -45,11 +48,11 @@
     <ClInclude Include="Notifier.h">
       <Filter>observer</Filter>
     </ClInclude>
-    <ClInclude Include="BeeAndFlowers.h">
-      <Filter>observer</Filter>
-    </ClInclude>
     <ClInclude Include="InnerClassIdiom.h">
       <Filter>inner_outer</Filter>
+    </ClInclude>
+    <ClInclude Include="BeeAndFlowers.h">
+      <Filter>visitor</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -59,9 +62,6 @@
     <ClCompile Include="design_pattern.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="BeeAndFlowers.cpp">
-      <Filter>observer</Filter>
-    </ClCompile>
     <ClCompile Include="ObservedFlower.cpp">
       <Filter>observer</Filter>
     </ClCompile>
@@ -70,6 +70,9 @@
     </ClCompile>
     <ClCompile Include="InnerClassIdiom.cpp">
       <Filter>inner_outer</Filter>
+    </ClCompile>
+    <ClCompile Include="BeeAndFlowers.cpp">
+      <Filter>visitor</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

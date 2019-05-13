@@ -20,7 +20,7 @@ int main() {
     paper_scissors_rock::test_multiple_dispatching();
 #endif
 
-    observer::test_visitor();
+    visitor::test_visitor();
     return 0;
 }
 

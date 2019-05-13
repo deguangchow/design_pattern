@@ -8,7 +8,7 @@ brief:        设计模式：访问者模式。区分访问者和接待者。
 #ifndef BEEANDFLOWERS_H
 #define BEEANDFLOWERS_H
 
-namespace observer {
+namespace visitor {
 
 class Gladiolus;
 class Renunculus;
@@ -88,7 +88,7 @@ struct AcceptorGen {
 
 void test_visitor();
 
-}//namespace observer
+}//namespace visitor
 
 
 #endif    //BEEANDFLOWERS_H
