@@ -14,19 +14,22 @@
 #include "BeeAndFlowers.h"
 #include "Adapter.h"
 #include "MemoryTool.h"
+#include "Singleton.h"
 
 
 int main() {
     memory_tool::enable_memory_leak_check();
 
-#if 1
+#if 0
     inner_outer::test_outer();
     observer::test_observer();
     paper_scissors_rock::test_multiple_dispatching();
     visitor::test_visitor();
+    adapter::test_adapter();
 #endif
 
-    adapter::test_adapter();
+    singleton::test_singleton();
+
     return 0;
 }
 
