@@ -27,6 +27,7 @@
 #include <stdio.h>
 #include <cstdlib>
 #include <random>
+#include <memory>
 
 //不使用命名空间
 using std::cout;
@@ -38,6 +39,10 @@ using std::set;
 using std::vector;
 using std::ostream_iterator;
 using std::random_device;
+using std::unique_ptr;
+using std::shared_ptr;
+using std::make_unique;
+using std::make_shared;
 
 //自定义头文件
 

@@ -71,7 +71,7 @@ ostream& Rock::print(ostream& os) const {
 void test_multiple_dispatching() {
     srand(static_cast<unsigned>(time(nullptr)));
     const int sz = 20;
-    vector<Item*> v(sz * 2);
+    vector<ptrItem> v(sz * 2);
     generate(v.begin(), v.end(), ItemGen());
     transform(v.begin(), v.begin() + sz, v.begin() + sz, ostream_iterator<Outcome>(cout, "\n"), Compete());
 }

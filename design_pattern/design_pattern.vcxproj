@@ -149,8 +149,10 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Adapter.h" />
     <ClInclude Include="BeeAndFlowers.h" />
     <ClInclude Include="InnerClassIdiom.h" />
+    <ClInclude Include="MemoryTool.h" />
     <ClInclude Include="Notifier.h" />
     <ClInclude Include="ObservedFlower.h" />
     <ClInclude Include="Observer.h" />

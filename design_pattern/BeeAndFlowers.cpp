@@ -37,7 +37,7 @@ void Bee_Visitor::visit(Gladiolus*) {
 
 void test_visitor() {
     srand(static_cast<unsigned>(time(nullptr)));
-    vector<Acceptor*> vctFlower(10);    //接待者类对象
+    vector<ptrAcceptor> vctFlower(10);    //接待者类对象
     generate(vctFlower.begin(), vctFlower.end(), AcceptorGen());
     StringVal sval; //访问者对象
                     //所有的接待者对象都需要来接待访问者sval

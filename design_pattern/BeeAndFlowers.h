@@ -54,6 +54,8 @@ public:
     virtual ~Acceptor() {
     }
 };
+using ptrAcceptor = std::unique_ptr<Acceptor>;
+
 //剑兰
 class Gladiolus : public Acceptor {
     void accpet(Visitor &v) {
@@ -75,13 +77,13 @@ class Chrysanthemum : public Acceptor {
 
 //不同类型的接待者对象生成器
 struct AcceptorGen {
-    Acceptor* operator()() {
+    ptrAcceptor operator()() {
         std::random_device rd;
         switch (rd() % 3) {
-        case 0: {return new Gladiolus; }
-        case 1: {return new Renunculus; }
-        case 2: {return new Chrysanthemum; }
-        default: {return new Gladiolus(); }
+        case 0: {return std::make_unique<Gladiolus>(); }
+        case 1: {return std::make_unique<Renunculus>(); }
+        case 2: {return std::make_unique<Chrysanthemum>(); }
+        default: {return nullptr; }
         }
     }
 };

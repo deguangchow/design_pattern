@@ -1,26 +1,32 @@
-///  Copyright (C) 2018 cpp_prime5 DG.C
-///      http://www.futuresoft.com.cn
+///    Copyright (C) 2018 DG.C, DGCHOW, deguangchow
+///        deguangchow@qq.com
 ///
-/// \brief 定义控制台应用程序的入口点
+///    \brief    design_pattern
 ///
-/// \author zhoudeguang
-/// \version 1.0
-/// \2018/05/03
+///    \author   deguangchow
+///    \version  1.0
+///    \2019/05/14
+
 #include "stdafx.h"
 #include "InnerClassIdiom.h"
 #include "ObservedFlower.h"
 #include "PaperScissorsRock.h"
 #include "BeeAndFlowers.h"
+#include "Adapter.h"
+#include "MemoryTool.h"
 
 
 int main() {
-#if 0
+    memory_tool::enable_memory_leak_check();
+
+#if 1
     inner_outer::test_outer();
     observer::test_observer();
     paper_scissors_rock::test_multiple_dispatching();
+    visitor::test_visitor();
 #endif
 
-    visitor::test_visitor();
+    adapter::test_adapter();
     return 0;
 }
 

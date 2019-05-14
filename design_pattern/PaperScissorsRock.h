@@ -37,6 +37,7 @@ public:
         return it->print(os);
     }
 };
+using ptrItem = std::shared_ptr<Item>;
 
 
 class Paper : public Item {
@@ -68,21 +69,21 @@ public:
 };
 
 struct ItemGen {
-    Item* operator()() {
+    ptrItem operator()() {
         std::random_device rd;
         switch (rd() % 3) {
-        case 0: {return new Scissors; }
-        case 1: {return new Paper; }
-        case 2: {return new Rock; }
-        default: {return new Scissors; }
+        case 0: {return std::make_shared<Scissors>(); }
+        case 1: {return std::make_shared<Paper>(); }
+        case 2: {return std::make_shared<Rock>(); }
+        default: {return nullptr; }
         }
     }
 };
 
 struct Compete {
-    Outcome operator()(Item *a, Item *b) {
-        cout << a << "\t" << b << "\t";
-        return a->compete(b);
+    Outcome operator()(ptrItem a, ptrItem b) {
+        cout << a.get() << "\t" << b.get() << "\t";
+        return  a->compete(b.get());
     }
 };
 

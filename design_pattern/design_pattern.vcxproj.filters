@@ -25,6 +25,12 @@
     <Filter Include="visitor">
       <UniqueIdentifier>{54acb7be-574a-457b-93d6-1530147fa0c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="adapter">
+      <UniqueIdentifier>{8017a9dd-e20e-4a19-8015-b52daa818a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{8518dbc7-85f2-48ae-8579-8da5efd2267b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -53,6 +59,12 @@
     </ClInclude>
     <ClInclude Include="BeeAndFlowers.h">
       <Filter>visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter.h">
+      <Filter>adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryTool.h">
+      <Filter>tools</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
