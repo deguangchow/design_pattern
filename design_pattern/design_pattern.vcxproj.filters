@@ -46,6 +46,12 @@
     <Filter Include="06">
       <UniqueIdentifier>{f9d21317-541e-485f-a3d1-0cc57b59c116}</UniqueIdentifier>
     </Filter>
+    <Filter Include="template_method">
+      <UniqueIdentifier>{dfacc80b-2633-49ab-bee8-719efad001dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="strategy">
+      <UniqueIdentifier>{6dd17445-adeb-4b3f-aa14-00646a5ce197}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -95,6 +101,12 @@
     </ClInclude>
     <ClInclude Include="PrintSequence.h">
       <Filter>06</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateMethod.h">
+      <Filter>template_method</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy.h">
+      <Filter>strategy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

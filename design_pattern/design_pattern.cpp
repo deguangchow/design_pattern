@@ -18,6 +18,8 @@
 #include "Command.h"
 #include "Proxy.h"
 #include "State.h"
+#include "TemplateMethod.h"
+#include "Strategy.h"
 
 
 int main() {
@@ -26,19 +28,28 @@ int main() {
 #if 0
     inner_outer::test_outer();
     observer::test_observer();
+
     paper_scissors_rock::test_multiple_dispatching();
+
     visitor::test_visitor();
-    adapter::test_adapter();
+
     singleton::test_singleton();
     singleton::test_singletonT();
+
     command::test_command();
     command::test_multicase_command();
+
     proxy::test_proxy();
+
     state::test_state();
+
+    adapter::test_adapter();
     adapter::test_FibonacciGenerator();
+    adapter::test_FibonacciAdapter();
+    template_method::test_template_method();
 #endif
 
-    adapter::test_FibonacciAdapter();
+    strategy::test_strategy();
 
     return 0;
 }
