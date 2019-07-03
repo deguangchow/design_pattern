@@ -28,6 +28,7 @@
 #include <cstdlib>
 #include <random>
 #include <memory>
+#include <numeric>
 
 //不使用命名空间
 using std::cout;

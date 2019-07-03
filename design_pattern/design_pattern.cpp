@@ -15,6 +15,9 @@
 #include "Adapter.h"
 #include "MemoryTool.h"
 #include "Singleton.h"
+#include "Command.h"
+#include "Proxy.h"
+#include "State.h"
 
 
 int main() {
@@ -26,9 +29,16 @@ int main() {
     paper_scissors_rock::test_multiple_dispatching();
     visitor::test_visitor();
     adapter::test_adapter();
+    singleton::test_singleton();
+    singleton::test_singletonT();
+    command::test_command();
+    command::test_multicase_command();
+    proxy::test_proxy();
+    state::test_state();
+    adapter::test_FibonacciGenerator();
 #endif
 
-    singleton::test_singleton();
+    adapter::test_FibonacciAdapter();
 
     return 0;
 }

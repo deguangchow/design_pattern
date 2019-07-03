@@ -34,6 +34,18 @@
     <Filter Include="singleton">
       <UniqueIdentifier>{8c7ddf63-576d-4811-81d6-e0ba1090f110}</UniqueIdentifier>
     </Filter>
+    <Filter Include="command">
+      <UniqueIdentifier>{de4ecfc0-a180-4c98-9fe3-0e700bb32e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proxy">
+      <UniqueIdentifier>{832b3e02-cb7a-4abc-89a4-5cb1ebeb2695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="state">
+      <UniqueIdentifier>{81b8d5bf-7cee-4163-8168-9ae8c93faa8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06">
+      <UniqueIdentifier>{f9d21317-541e-485f-a3d1-0cc57b59c116}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -71,6 +83,18 @@
     </ClInclude>
     <ClInclude Include="Singleton.h">
       <Filter>singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy.h">
+      <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintSequence.h">
+      <Filter>06</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
