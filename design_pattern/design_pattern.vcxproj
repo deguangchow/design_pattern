@@ -151,6 +151,7 @@
   <ItemGroup>
     <ClInclude Include="Adapter.h" />
     <ClInclude Include="BeeAndFlowers.h" />
+    <ClInclude Include="ChainOfResponsibility.h" />
     <ClInclude Include="Command.h" />
     <ClInclude Include="InnerClassIdiom.h" />
     <ClInclude Include="MemoryTool.h" />

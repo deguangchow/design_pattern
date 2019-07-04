@@ -20,6 +20,7 @@
 #include "State.h"
 #include "TemplateMethod.h"
 #include "Strategy.h"
+#include "ChainOfResponsibility.h"
 
 
 int main() {
@@ -47,9 +48,11 @@ int main() {
     adapter::test_FibonacciGenerator();
     adapter::test_FibonacciAdapter();
     template_method::test_template_method();
-#endif
 
     strategy::test_strategy();
+#endif
+
+    chain_of_responsibility::test_chain_of_responsibility();
 
     return 0;
 }

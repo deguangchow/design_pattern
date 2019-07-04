@@ -52,6 +52,9 @@
     <Filter Include="strategy">
       <UniqueIdentifier>{6dd17445-adeb-4b3f-aa14-00646a5ce197}</UniqueIdentifier>
     </Filter>
+    <Filter Include="chain_of_responsibility">
+      <UniqueIdentifier>{e5b6e7bd-c903-4120-bb1b-40ca39b81cfc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -107,6 +110,9 @@
     </ClInclude>
     <ClInclude Include="Strategy.h">
       <Filter>strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainOfResponsibility.h">
+      <Filter>chain_of_responsibility</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
