@@ -55,6 +55,12 @@
     <Filter Include="chain_of_responsibility">
       <UniqueIdentifier>{e5b6e7bd-c903-4120-bb1b-40ca39b81cfc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="factory">
+      <UniqueIdentifier>{5434b172-c890-4794-ba8e-c486cbd0a0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{aeebceba-699b-4bf9-88cf-bf7f7a48fea8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -113,6 +119,18 @@
     </ClInclude>
     <ClInclude Include="ChainOfResponsibility.h">
       <Filter>chain_of_responsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>factory</Filter>
+    </ClInclude>
+    <ClInclude Include="PolymorphicFactory.h">
+      <Filter>factory</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunctions.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>factory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

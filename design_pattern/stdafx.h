@@ -29,6 +29,7 @@
 #include <random>
 #include <memory>
 #include <numeric>
+#include <map>
 
 //不使用命名空间
 using std::cout;
@@ -44,9 +45,11 @@ using std::unique_ptr;
 using std::shared_ptr;
 using std::make_unique;
 using std::make_shared;
+using std::logic_error;
+using std::map;
 
 //自定义头文件
-
+#include "CommonFunctions.h"
 
 
 

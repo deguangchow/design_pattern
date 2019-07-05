@@ -21,6 +21,9 @@
 #include "TemplateMethod.h"
 #include "Strategy.h"
 #include "ChainOfResponsibility.h"
+#include "Factory.h"
+#include "PolymorphicFactory.h"
+#include "AbstractFactory.h"
 
 
 int main() {
@@ -47,12 +50,18 @@ int main() {
     adapter::test_adapter();
     adapter::test_FibonacciGenerator();
     adapter::test_FibonacciAdapter();
+
     template_method::test_template_method();
 
     strategy::test_strategy();
-#endif
 
     chain_of_responsibility::test_chain_of_responsibility();
+
+    factory::test_factory();
+    polymorphic_factory::test_polymorphic_factory();
+#endif
+
+    abstract_factory::test_abstract_factory();
 
     return 0;
 }

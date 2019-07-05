@@ -149,16 +149,20 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractFactory.h" />
     <ClInclude Include="Adapter.h" />
     <ClInclude Include="BeeAndFlowers.h" />
     <ClInclude Include="ChainOfResponsibility.h" />
     <ClInclude Include="Command.h" />
+    <ClInclude Include="CommonFunctions.h" />
+    <ClInclude Include="Factory.h" />
     <ClInclude Include="InnerClassIdiom.h" />
     <ClInclude Include="MemoryTool.h" />
     <ClInclude Include="Notifier.h" />
     <ClInclude Include="ObservedFlower.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="PaperScissorsRock.h" />
+    <ClInclude Include="PolymorphicFactory.h" />
     <ClInclude Include="PrintSequence.h" />
     <ClInclude Include="Proxy.h" />
     <ClInclude Include="Singleton.h" />

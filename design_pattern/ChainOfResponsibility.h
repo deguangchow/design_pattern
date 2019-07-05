@@ -58,17 +58,6 @@ public:
 
 class Gimme : public GimmeStrategy {
     vector<GimmeStrategy*> chain;
-
-    static void purge(vector<GimmeStrategy*>& chain) {
-        for (int i = 0; i < chain.size(); ++i) {
-            if (chain[i]) {
-                delete chain[i];
-            }
-            chain[i] = nullptr;
-        }
-        chain.clear();
-    }
-
 public:
     Gimme() {
         chain.push_back(new AskMom);
@@ -88,7 +77,7 @@ public:
         return NO;
     }
     ~Gimme() {
-        purge(chain);
+        common_functions::purge(chain);
     }
 };
 
