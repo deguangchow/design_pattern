@@ -132,6 +132,9 @@
     <ClInclude Include="AbstractFactory.h">
       <Filter>factory</Filter>
     </ClInclude>
+    <ClInclude Include="VirtualConstructor.h">
+      <Filter>factory</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

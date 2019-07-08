@@ -171,6 +171,7 @@
     <ClInclude Include="Strategy.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="TemplateMethod.h" />
+    <ClInclude Include="VirtualConstructor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BeeAndFlowers.cpp" />

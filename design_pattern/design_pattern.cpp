@@ -24,6 +24,7 @@
 #include "Factory.h"
 #include "PolymorphicFactory.h"
 #include "AbstractFactory.h"
+#include "VirtualConstructor.h"
 
 
 int main() {
@@ -59,9 +60,10 @@ int main() {
 
     factory::test_factory();
     polymorphic_factory::test_polymorphic_factory();
+    abstract_factory::test_abstract_factory();
 #endif
 
-    abstract_factory::test_abstract_factory();
+    virtual_constructor::test_virtual_constructor();
 
     return 0;
 }
