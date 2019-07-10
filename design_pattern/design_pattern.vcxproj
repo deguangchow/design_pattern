@@ -152,6 +152,7 @@
     <ClInclude Include="AbstractFactory.h" />
     <ClInclude Include="Adapter.h" />
     <ClInclude Include="BeeAndFlowers.h" />
+    <ClInclude Include="Builder.h" />
     <ClInclude Include="ChainOfResponsibility.h" />
     <ClInclude Include="Command.h" />
     <ClInclude Include="CommonFunctions.h" />
@@ -175,6 +176,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BeeAndFlowers.cpp" />
+    <ClCompile Include="Builder.cpp" />
     <ClCompile Include="design_pattern.cpp" />
     <ClCompile Include="InnerClassIdiom.cpp" />
     <ClCompile Include="ObservedFlower.cpp" />

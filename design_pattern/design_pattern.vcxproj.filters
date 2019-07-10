@@ -61,6 +61,9 @@
     <Filter Include="common">
       <UniqueIdentifier>{aeebceba-699b-4bf9-88cf-bf7f7a48fea8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="builder">
+      <UniqueIdentifier>{f273fe53-2b9f-49fa-a73b-783337589998}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -135,6 +138,9 @@
     <ClInclude Include="VirtualConstructor.h">
       <Filter>factory</Filter>
     </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>builder</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -154,6 +160,9 @@
     </ClCompile>
     <ClCompile Include="BeeAndFlowers.cpp">
       <Filter>visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

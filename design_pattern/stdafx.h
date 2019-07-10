@@ -30,6 +30,7 @@
 #include <memory>
 #include <numeric>
 #include <map>
+#include <assert.h>
 
 //不使用命名空间
 using std::cout;
