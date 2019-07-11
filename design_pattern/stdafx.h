@@ -17,6 +17,7 @@
 #include <stdio.h>
 #include <tchar.h>
 #include <iostream>
+#include <sstream>
 #include <string>
 #include <set>
 #include <algorithm>
@@ -38,6 +39,7 @@ using std::endl;
 using std::string;
 using std::set;
 using std::ostream;
+using std::ostringstream;
 using std::set;
 using std::vector;
 using std::ostream_iterator;

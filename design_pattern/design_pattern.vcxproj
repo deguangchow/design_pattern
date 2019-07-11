@@ -159,6 +159,7 @@
     <ClInclude Include="Factory.h" />
     <ClInclude Include="InnerClassIdiom.h" />
     <ClInclude Include="MemoryTool.h" />
+    <ClInclude Include="MI.h" />
     <ClInclude Include="Notifier.h" />
     <ClInclude Include="ObservedFlower.h" />
     <ClInclude Include="Observer.h" />

@@ -26,6 +26,7 @@
 #include "AbstractFactory.h"
 #include "VirtualConstructor.h"
 #include "Builder.h"
+#include "MI.h"
 
 
 int main() {
@@ -63,11 +64,13 @@ int main() {
     polymorphic_factory::test_polymorphic_factory();
     abstract_factory::test_abstract_factory();
     virtual_constructor::test_virtual_constructor();
+    builder::test_builder();
 
-
+    mi::test_interface_inharitance();
+    mi::test_template();
 #endif
 
-    builder::test_builder();
+    mi::test_interface_inharitance();
 
     return 0;
 }

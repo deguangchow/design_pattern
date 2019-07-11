@@ -64,6 +64,9 @@
     <Filter Include="builder">
       <UniqueIdentifier>{f273fe53-2b9f-49fa-a73b-783337589998}</UniqueIdentifier>
     </Filter>
+    <Filter Include="09">
+      <UniqueIdentifier>{7a95c53d-288c-4225-a0ef-9487cbe89352}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -140,6 +143,9 @@
     </ClInclude>
     <ClInclude Include="Builder.h">
       <Filter>builder</Filter>
+    </ClInclude>
+    <ClInclude Include="MI.h">
+      <Filter>09</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
